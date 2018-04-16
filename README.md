@@ -12,7 +12,7 @@ Given a list with the mean temperature per day, find the longest consecutive seq
 
 Example:
 
-[!example](temp1.png)
+![example](temp1.png)
  
 In table above it can be seen that there are two date ranges where the temperature is within 5 degrees:
 1.	Day 1 to day 7
@@ -20,9 +20,10 @@ In table above it can be seen that there are two date ranges where the temperatu
 As the date range of day 2 to day 10 is larger, as a start day the value 1 would be returned and as an end day the value 10 would be returned. If there is more than one sequence which is the longest, you may return any of them.
 Note that the optimal sequence may start and end on the same day. There will always be at least one day with a temperature in the input list.
 
-Canvas Description
+Solution Example
 
- 
+![canvas](sol1.png)
+
 API Description
 
 The following data is available for you to access through the API provided. Details about the API functions and the data they provide can be found under the API tab.
